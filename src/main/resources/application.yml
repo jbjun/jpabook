@@ -1,0 +1,19 @@
+server:
+  port: 18082
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.234.83.97:3306/web_test?serverTimezone=Asia/Seoul
+    username: webuser
+    password: zjadjq12!@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        #        show_sql: true
+        format_sql: true
+logging:
+  level:
+    org.hibernate.SQL: debug
