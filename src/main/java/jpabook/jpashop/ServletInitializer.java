@@ -1,4 +1,4 @@
-package jpabook.jpabook;
+package jpabook.jpashop;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
